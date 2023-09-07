@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    position: relative;
+}
+@keyframes colorchange{
+    0%{
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: yellow;
+        top: 0px;
+        left: 100px;
+    }
+    50%{
+        background-color:red;
+        top: 100px;
+        left: 100px;
+    }
+    100%{
+        background-color:pink;
+        top: 0px;
+        left: 0px;
+    }
+}
