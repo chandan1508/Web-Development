@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* element selector */
+h1{
+    color: rgb(243, 61, 61);
+}
+p{
+    color: rgb(89, 77, 228);
+}
+/* Class Selector */
+.pra{
+    color: rgb(7, 159, 7);
+}
+/* ID selector */
+#id1{
+    color: aliceblue;
+    background-color: black;
+}
+/* selector list */
+.class1 , .class2 , .class3{
+    color: aqua;
+    background-color: rgb(16, 15, 15);
+}
