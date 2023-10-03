@@ -1,0 +1,26 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;   
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 25%; */
+    /* position: relative; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.box3{
+    background-color: green;
+    /* position: sticky;
+    top: 0;
+*/
+}
